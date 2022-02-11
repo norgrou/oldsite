@@ -1,0 +1,18 @@
+button {
+  width: 12em
+}
+
+button:hover span {
+  display: none
+}
+
+button:hover:before {
+  content: "nothing suspicous here"
+}
+
+body {
+  background-image: url('https://norgrou.github.io/img/backround.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
