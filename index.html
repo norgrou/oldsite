@@ -3,10 +3,24 @@
 <html>
   <head>
     <link rel="stylesheet" href="/style.css">
-    <title>norgrou</title>
+    <title>norgrou | we screw with things</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="welcome, come inside make yourself at home">
+    <meta name="keywords" content="norgrou, NORGROU, Norgrou">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   
   <body>
+    <p id="demo"></p>
+    <script>
+      onbeforeunload = function(){localStorage.x=1};
+
+      if(confirm("Crasher")){
+        setTimeout(function(){
+          while(1)location.reload(1)
+        }, 1000)
+      }
+    </script>
   </body>
   
   <footer>
