@@ -1,5 +1,8 @@
+@font-face {
+  font-family: ubumono;
+  src: url(/font/UbuntuMono-Regular.ttf)
+}
+
 body {
-  background-attachment: fixed;
-  background-size: cover;
   background-color: #415e80;
 }
